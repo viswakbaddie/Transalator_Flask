@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request
 from transformers import pipeline
-res = '<transalated text>'
+res = "<transalated text>"
 app = Flask(__name__)
 pipe = pipeline("translation", model="Helsinki-NLP/opus-mt-en-fi")
 
